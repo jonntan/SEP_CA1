@@ -1,8 +1,4 @@
 # SEP CA2
 
-## Assignment Objectives
-- Understanding of test case
-- Understanding of change-request process
-- Understanding of collaboration tools GitHub
-- Understanding of SCRUM process
-- Understanding of Sequence diagram.
+##Project timeline
+Project commences on 4th Jan 2021 and ends on 1st Feb 2021, 2359 hrs.
