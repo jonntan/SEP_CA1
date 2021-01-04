@@ -1,6 +1,8 @@
 # SEP CA2
 
-Start off by cloning this project into your local device:
+## Setting up assignment
+
+### Cloning to local device
 ```
 git clone https://github.com/jonntan/SEP_CA2.git
 ```
