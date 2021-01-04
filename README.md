@@ -7,6 +7,13 @@
 git clone https://github.com/jonntan/SEP_CA2.git
 ```
 ### Setting up MySQL database
+1. Import islandfurniture-it07.sql into MySQL and run the file.
+
+### Running frontend
+```
+npm install bcrypt
+forever server.js
+```
 
 ## Assignment Requirements
 
