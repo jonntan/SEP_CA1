@@ -22,11 +22,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 Uninstall current nodejs version in computer. Reinstall nodejs with the one in Misc folder.
 
 ### Running website
-Before running the project, install following codes:
-```node
-npm i node-pre-gyp
-npm install bcrypt --save
-```
+
 Run project code
 ```node
 forever server.js
