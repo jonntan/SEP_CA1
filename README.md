@@ -1,5 +1,10 @@
 # SEP CA2
 
+Start off by cloning this project into your local device:
+```
+git clone 
+```
+
 ## Assignment Requirements
 
 ### Project timeline
@@ -10,7 +15,7 @@ Scrum Master: Jonn Tan
 Team members: Tenia, Anna Yap
 
 ### To be done
-1. Create a prodect backlog. - [ ]
+1. Create a prodect backlog.
 2. Monitor progress using burndown chart.
 3. Create 3 test cases.
    - View “Retail Products” category (this is the last option of “ALL
