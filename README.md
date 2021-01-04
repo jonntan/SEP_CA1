@@ -1,8 +1,18 @@
 # SEP CA2
 
-Start off by cloning this project into your local device:
+## Setting up assignment
+
+### Cloning to local device
 ```
 git clone https://github.com/jonntan/SEP_CA2.git
+```
+### Setting up MySQL database
+1. Import islandfurniture-it07.sql into MySQL and run the file.
+
+### Running frontend
+```
+npm install bcrypt
+forever server.js
 ```
 
 ## Assignment Requirements
