@@ -16,10 +16,9 @@ git clone https://github.com/jonntan/SEP_CA2.git
 ```SQL
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 ```
-
 ### Running website
-Before running the project, install following code:
-```
+Before running the project, install following codes:
+```node
 npm i node-pre-gyp
 npm install bcrypt --save
 ```
