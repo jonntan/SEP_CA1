@@ -22,7 +22,23 @@ Before running the project, install following codes:
 npm i node-pre-gyp
 npm install bcrypt --save
 ```
-
+Then run these codes to configure:
+```node
+npm init
+npm install mysql
+npm install body-parser
+npm install express
+npm install request
+npm install nodemailer
+npm install bcrypt
+npm install stripe
+npm install @fortawesome/fontawesome-free
+npm install pretty-checkbox
+npm install jsonwebtoken
+npm install multer
+npm install forever -g
+forever server.js
+```
 ## Assignment Requirements
 
 ### Project timeline
