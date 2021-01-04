@@ -7,31 +7,17 @@
 git clone https://github.com/jonntan/SEP_CA2.git
 ```
 ### Setting up MySQL database
-1. Import islandfurniture-it07.sql into MySQL and run the file.
+1. Open MySQL. 
+2. Open [Administration] panel on the left hand.
+3. Select [Data Import/Restore]
+4. Select [Import from self-contained file] and chose SQL file.
+5. Start import
 
-### Running frontend
-Run 'node server.js' and if error is: 
-```
-module.js:682
-  return process.dlopen(module, path._makeLong(filename));
-                 ^
-
-Error: \\?\H:\SPY2S2\SEP\SEP_CA2\islandfurniture_ST0506\node_modules\bcrypt\lib\binding\bcrypt_lib.node is not a valid Win32 application.
-\\?\H:\SPY2S2\SEP\SEP_CA2\islandfurniture_ST0506\node_modules\bcrypt\lib\binding\bcrypt_lib.node
-    at Object.Module._extensions..node (module.js:682:18)
-    at Module.load (module.js:566:32)
-    at tryModuleLoad (module.js:506:12)
-    at Function.Module._load (module.js:498:3)
-    at Module.require (module.js:597:17)
-    at require (internal/module.js:11:18)
-    at Object.<anonymous> (H:\SPY2S2\SEP\SEP_CA2\islandfurniture_ST0506\node_modules\bcrypt\bcrypt.js:6:16)
-    at Module._compile (module.js:653:30)
-    at Object.Module._extensions..js (module.js:664:10)
-    at Module.load (module.js:566:32)
-```
-Install code below and run 'node server.js' again:
+### Running website
+Before running the project, install following code:
 ```
 npm i node-pre-gyp
+npm install bcrypt --save
 ```
 
 ## Assignment Requirements
