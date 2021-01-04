@@ -11,7 +11,8 @@ git clone https://github.com/jonntan/SEP_CA2.git
 Project commences on 4th Jan 2021 and ends on 1st Feb 2021, 2359 hrs.
 
 ### Team
-Scrum Master: Jonn Tan  Team members: Tenia, Anna Yap
+Scrum Master: Jonn Tan  
+Team members: Tenia, Anna Yap
 
 ### To be done
 1. Create a prodect backlog.
