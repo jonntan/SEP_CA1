@@ -18,6 +18,9 @@ git clone https://github.com/jonntan/SEP_CA2.git
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 ```
 
+### Nodejs
+Uninstall current nodejs version in computer. Reinstall nodejs with the one in Misc folder.
+
 ### Running website
 Before running the project, install following codes:
 ```node
