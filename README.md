@@ -6,6 +6,7 @@
 ```
 git clone https://github.com/jonntan/SEP_CA2.git
 ```
+
 ### Setting up MySQL database
 1. Open MySQL. 
 2. Open [Administration] panel on the left hand.
@@ -16,29 +17,21 @@ git clone https://github.com/jonntan/SEP_CA2.git
 ```SQL
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 ```
+
 ### Running website
 Before running the project, install following codes:
 ```node
 npm i node-pre-gyp
 npm install bcrypt --save
 ```
-Then run these codes to configure:
+Run project code
 ```node
-npm init
-npm install mysql
-npm install body-parser
-npm install express
-npm install request
-npm install nodemailer
-npm install bcrypt
-npm install stripe
-npm install @fortawesome/fontawesome-free
-npm install pretty-checkbox
-npm install jsonwebtoken
-npm install multer
-npm install forever -g
 forever server.js
 ```
+
+### Debugging
+When debugging, open an issue. Then create a new branch and push your solution of code there. If it is approaved, it will be merged to the main branch.
+
 ## Assignment Requirements
 
 ### Project timeline
