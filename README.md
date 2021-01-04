@@ -6,6 +6,7 @@
 ```
 git clone https://github.com/jonntan/SEP_CA2.git
 ```
+### Setting up MySQL database
 
 ## Assignment Requirements
 
