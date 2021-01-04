@@ -12,6 +12,10 @@ git clone https://github.com/jonntan/SEP_CA2.git
 3. Select [Data Import/Restore]
 4. Select [Import from self-contained file] and chose SQL file.
 5. Start import
+6. Open new SQL tab and run code
+```SQL
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
+```
 
 ### Running website
 Before running the project, install following code:
