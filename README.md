@@ -22,10 +22,26 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'root1234';
 Uninstall current nodejs version in computer. Reinstall nodejs with the one in Misc folder.
 
 ### Running website
-Run these codes in VS Code **first!**
+Run these code in VS Code **first!**
 ```node
 npm i node-pre-gyp
+```
+
+Run these dependencies if needed...
+```node
+npm init
+npm install mysql
+npm install body-parser
+npm install express
+npm install request
+npm install nodemailer
 npm install bcrypt
+npm install stripe
+npm install @fortawesome/fontawesome-free
+npm install pretty-checkbox
+npm install jsonwebtoken
+npm install multer
+npm install forever -g
 ```
 
 Run project code
