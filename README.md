@@ -34,7 +34,11 @@ forever server.js
 ```
 
 ### Debugging
-When debugging, open an issue. Then create a new branch and push your solution of code there. If it is approaved, it will be merged to the main branch.
+When debugging, open an issue. Then create a new branch and push your solution of code there. If it is approaved, it will be merged to the main branch.  
+To create a new branch and switch to it:
+```git
+git checkout -b BRANCHNAME
+```
 
 ## Assignment Requirements
 
