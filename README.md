@@ -53,7 +53,11 @@ forever server.js
 When debugging, open an issue. Then create a new branch and push your solution of code there. If it is approaved, it will be merged to the main branch.  
 To create a new branch and switch to it:
 ```git
-git checkout -b BRANCHNAME
+git checkout -b <branch_name>
+```
+Push the codes into this new branch and change back to main branch
+```git
+git checkout main
 ```
 
 ## Assignment Requirements
