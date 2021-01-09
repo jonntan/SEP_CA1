@@ -20,7 +20,7 @@
                 }).then(function (product) {
                     //set retail product details
                     document.getElementById("productImg").setAttribute('src', product.imageURL);
-
+                    document.getElementById("productDesc").innerHTML = product.description;//extra
                     document.getElementById("productCategory").innerHTML = product.category;
                     document.getElementById("productCategory").setAttribute('href', '/B/' + countryPrefix
                         + '/retailProductsCategory.html?cat=' + encodeURIComponent(product.category));
@@ -63,6 +63,7 @@
                         return response.json();
                     }).then(function (data) {
                         var quantity = data[0].sum;
+                   
                         if(quantity == null || quantity == '') {
                             quantity = 0;
                         }
