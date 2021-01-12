@@ -85,10 +85,10 @@ DEPARTMENTS”) (1 test case)
 6. Follow proper change-request process to check out source code for the bug fix and commit the tested working code back to Github.
 
 ## Deliverables
-- [ ] 1 product backlog (use the template in appendix D for the estimation of effort).
-- [ ] 1 burndown chart for the whole CA2 (you may use any software e.g. Word, Excel, Trello for the scrum board). Provide 3 screenshots for your scrum board (1 for the starting state, 1 for showing status of progress at midway point, and 1 for the ending state of your scrum board).
-- [ ] 3 test cases.
-- [ ] 2 screen shots of Github (1 screen shot at the start before committing any changes, 1
+- [x] 1 product backlog (use the template in appendix D for the estimation of effort).
+- [x] 1 burndown chart for the whole CA2 (you may use any software e.g. Word, Excel, Trello for the scrum board). Provide 3 screenshots for your scrum board (1 for the starting state, 1 for showing status of progress at midway point, and 1 for the ending state of your scrum board).
+- [x] 3 test cases.
+- [x] 2 screen shots of Github (1 screen shot at the start before committing any changes, 1
 screen shot to show all the commits at the end of the project).
-- [ ] 3 sequence diagrams.
-- [ ] Bug fixes (if any). Submit only those program files that are amended.
+- [x] 3 sequence diagrams.
+- [x] Bug fixes (if any). Submit only those program files that are amended.
